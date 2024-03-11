@@ -13,6 +13,6 @@ function getShippingCost(country){
     console.log (`Shipping to ${country} will cost 120 credits`);
     break;
     default:
-        "Sorry, there is no delivery to your country";
+        console.log("Sorry, there is no delivery to your country");
     }
 }
